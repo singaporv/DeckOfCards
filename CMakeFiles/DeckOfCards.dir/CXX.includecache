@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/apoorv/Desktop/CPP/coding challenge/DeckOfCards/cards.h
+iostream
+-
+
+/home/apoorv/Desktop/CPP/coding challenge/DeckOfCards/deck.h
+iostream
+-
+cards.h
+/home/apoorv/Desktop/CPP/coding challenge/DeckOfCards/cards.h
+vector
+-
+assert.h
+-
+
+/home/apoorv/Desktop/CPP/coding challenge/DeckOfCards/main.cpp
+iostream
+-
+cards.h
+/home/apoorv/Desktop/CPP/coding challenge/DeckOfCards/cards.h
+deck.h
+/home/apoorv/Desktop/CPP/coding challenge/DeckOfCards/deck.h
+
